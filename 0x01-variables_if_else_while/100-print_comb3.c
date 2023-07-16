@@ -7,18 +7,18 @@
  */
 int main(void)
 {
-	int n = '0';
-	int m = '0';
+	int i = '0';
+	int j = '0';
 
-	while (n <= '9')
+	while (i <= '9')
 	{
-		while (m <= '9')
+		while (j <= '9')
 		{
-			if (!(n > m) || n == m)
+			if (!(i > j) || i == j)
 			{
-				putchar(n);
-				putchar(m);
-				if (n == '0' && m == '9')
+				putchar(i);
+				putchar(j);
+				if (i == '0' && j == '9')
 				{
 					putchar('\n');
 				}
@@ -28,10 +28,10 @@ int main(void)
 					putchar(' ');
 				}
 			}
-			m++;
+			j++;
 		}
-		m = '0';
-		n++;
+		j = '0';
+		i++;
 	}
 return (0);
 }
