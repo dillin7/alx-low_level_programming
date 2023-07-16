@@ -2,12 +2,8 @@
 
 /**
  * main - Entry point
- *
- * Description: 'print alphabets lowercase'
- *
- * Returns: Always 0
- *
- * succeed
+ * Description: Prints the alphabet in lowercase, followed by a new line
+ * Return: Always 0
  */
 int main(void)
 {
