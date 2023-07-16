@@ -1,8 +1,12 @@
 #include <stdio.h>
 /**
  * main - Entry point
+ *
  * Description: 'print alphabets lowercase'
+ *
  * Returns: Always 0
+ *
+ * succeed
  */
 int main(void)
 {
