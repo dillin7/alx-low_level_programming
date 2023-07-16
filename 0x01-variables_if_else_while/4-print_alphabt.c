@@ -1,5 +1,5 @@
 #include <stdio.h>
- /**
+/**
   * main - Entry point
   * Description 'print alphabets except q and e'
   * return: always 0
