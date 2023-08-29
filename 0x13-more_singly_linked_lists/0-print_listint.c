@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 
 /**
  * print_listint - Displays every node in a linked list
@@ -16,6 +17,5 @@ size_t print_listint(const listint_t *h)
 		num++;
 		h = h->next;
 	}
-
 	return (num);
 }
